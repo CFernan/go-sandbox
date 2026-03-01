@@ -1,10 +1,10 @@
-package main
+package sumMillion
 
 import (
 	"fmt"
 )
 
-func main() {
+func sum() {
 	fmt.Println("Sumar todos los int entre 0 y 1 millón que no sean múltiplos de 3 y 5")
 	suma := 0
 	for i := range 1000001 {
